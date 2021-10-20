@@ -1,0 +1,86 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+}
+
+.skill-item{
+    text-align: center;
+}
+
+nav{
+    z-index: 9999;
+}
+
+.headline{
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+.skillset, .profile, .projects, .contact{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.profile{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.headline-content{
+    background-color: rgba(130, 153, 174, 0.50);
+}
+
+.headline h1{
+    font-weight: bold;
+}
+
+.hire-me{
+    background-image: url("banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.hire-contact{
+    background-color: rgba(130, 153, 174, 0.50);
+}
+
+#item1 img:hover{
+    width: 250px;
+}
+
+#item2 img:hover{
+    width: 250px;
+}
+
+#circle1, #circle2, #circle3, #circle4 {
+    width: 100px;
+    margin: 6px 6px 20px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#circle1 strong, #circle2 strong, #circle3 strong, #circle4 strong {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+.projects{
+    height: 500px;
+}
